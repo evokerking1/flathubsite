@@ -21,7 +21,7 @@
     "nodemailer": "7.0.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-email": "4.0.15",
+    "react-email": "4.0.16",
     "zod": "^3.25.53"
   },
   "devDependencies": {
@@ -30,7 +30,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/swagger-ui-dist": "^3.30.5",
-    "eslint": "^9.27.0",
+    "eslint": "^9.28.0",
     "prettier": "3.5.3",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
