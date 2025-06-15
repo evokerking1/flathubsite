@@ -9,9 +9,9 @@
     "email-export": "email export"
   },
   "dependencies": {
-    "@hono/node-server": "^1.14.3",
-    "@hono/sentry": "^1.2.1",
-    "@hono/swagger-ui": "0.5.1",
+    "@hono/node-server": "^1.14.4",
+    "@hono/sentry": "^1.2.2",
+    "@hono/swagger-ui": "0.5.2",
     "@hono/zod-openapi": "^0.19.8",
     "@react-email/components": "0.0.41",
     "@react-email/render": "1.1.2",
@@ -21,8 +21,8 @@
     "nodemailer": "7.0.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-email": "4.0.15",
-    "zod": "^3.25.53"
+    "react-email": "4.0.16",
+    "zod": "^3.25.64"
   },
   "devDependencies": {
     "@types/html-to-text": "^9.0.4",
@@ -30,9 +30,9 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/swagger-ui-dist": "^3.30.5",
-    "eslint": "^9.27.0",
+    "eslint": "^9.28.0",
     "prettier": "3.5.3",
-    "tsx": "^4.19.4",
+    "tsx": "^4.20.2",
     "typescript": "^5.8.3"
   },
   "packageManager": "yarn@4.2.2"
