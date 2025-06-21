@@ -259,7 +259,6 @@
   "count-desktop-apps": "Общо приложения",
   "apps-by-developer": "Приложения от {{developer}}",
   "rss-apps": "Имате ли нужда от RSS приложение? Във <2>„Flathub“</2> има за всеки по нещо.",
-  "app-share": "Дял на приложението",
   "no-apps": "Няма приложения.",
   "apps": "Приложения",
   "consultants": "Консултанти",
@@ -612,11 +611,6 @@
   "amount": "Сума",
   "recipient": "Получател",
   "created": "Създадено",
-  "platform": {
-    "org-gnome-platform": "Платформа на „GNOME“",
-    "org-freedesktop-platform": "Платформа на „Freedesktop“",
-    "org-kde-platform": "Платформа на „KDE“"
-  },
   "action-donate": "Допринесете",
   "kind-purchase-app": "Купете „{{appName}}“",
   "action-purchase": "Купете",
@@ -653,5 +647,15 @@
     "previous": "Предишна",
     "show-screenshot-fullscreen": "Показване на снимката на цял екран"
   },
-  "count-verified-desktop-apps": "Общо проверени приложения"
+  "count-verified-desktop-apps": "Общо проверени приложения",
+  "vendingSharesPreview": {
+    "sdk": "SDK",
+    "appShare": "Дял на приложението: {{percentage}}",
+    "app": "Приложение",
+    "flathubShare": "Дял на „Flathub“: {{percentage}}",
+    "sliderThumbLabel": "Разпределение на дяловете на приложението: {{percentage}}",
+    "sliderLabel": "Плъзгач за разпределение на дяловете",
+    "sdkShare": "Дял на SDK: {{percentage}}",
+    "screenReaderBreakdown": "Плъзгач за разбивка на дяловете. Използвайте стрелките, за да регулирате разпределението на приложението, SDK, и „Flathub“. Текущо разпределение: приложение: {{appPercentage}}, SDK: {{sdkPercentage}}, „Flathub“: {{flathubPercentage}}. Обща сума: {{totalCost}}."
+  }
 }

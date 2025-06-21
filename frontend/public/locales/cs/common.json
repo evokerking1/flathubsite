@@ -259,7 +259,6 @@
   "apps": "Aplikace",
   "count-desktop-apps": "Celkem desktopových aplikací",
   "apps-by-developer": "Aplikace od {{developer}}",
-  "app-share": "Sdílení aplikací",
   "no-apps": "Žádné aplikace k zobrazení.",
   "rss-apps": "Potřebujete RSS čtečku? Najděte tu správnou na <2>Flathub</2>.",
   "consultants": "Konzultanti",
@@ -611,11 +610,6 @@
   "action-donate": "Podpořit vývoj darem",
   "recipient": "Příjemce",
   "amount": "Částka",
-  "platform": {
-    "org-gnome-platform": "Platforma GNOME",
-    "org-freedesktop-platform": "Platforma Freedesktop",
-    "org-kde-platform": "Platforma KDE"
-  },
   "positions": "Pozice",
   "position-short": "Poz.",
   "total": "Celkem",
@@ -654,5 +648,15 @@
     "close": "Zavřít",
     "show-screenshot-fullscreen": "Zobrazit snímek na celou obrazovku"
   },
-  "count-verified-desktop-apps": "Ověřené desktopové aplikace"
+  "count-verified-desktop-apps": "Ověřené desktopové aplikace",
+  "vendingSharesPreview": {
+    "app": "Aplikace",
+    "appShare": "Podíl aplikace: {{percentage}}",
+    "flathubShare": "Podíl Flathubu: {{percentage}}",
+    "sdk": "SDK",
+    "sliderLabel": "Posuvník rozdělení akcií",
+    "sdkShare": "Podíl SDK: {{percentage}}",
+    "sliderThumbLabel": "Distribuce podílů aplikací: {{percentage}}",
+    "screenReaderBreakdown": "Sdílet členění jezdce. Pomocí šipek upravte rozdělení mezi aplikace, SDK a Flathub. Aktuální rozdělení: Aplikace: {{appPercentage}}, SDK: {{sdkPercentage}}, Flathub: {{flathubPercentage}}, Celkové náklady: {{totalCost}}."
+  }
 }

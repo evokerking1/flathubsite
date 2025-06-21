@@ -607,13 +607,7 @@
   "kind-purchase-app": "Blijeni {{appName}}",
   "kind-donate-app": "Dhuroni për {{appName}}",
   "recipient": "Marrës",
-  "app-share": "Përqindje për aplikacionin",
   "action-donate": "Dhuroni",
-  "platform": {
-    "org-kde-platform": "Platformë KDE",
-    "org-gnome-platform": "Platformë GNOME",
-    "org-freedesktop-platform": "Platformë Freedesktop"
-  },
   "apps-by-tag": "Aplikacione sipas etikete '{{tag}}'",
   "app-listing-quality": "Ujdisni Google Listing & Ads",
   "mobile-apps": "Aplikacione Për Celular",
@@ -645,5 +639,9 @@
     "close": "Mbylle",
     "show-screenshot-fullscreen": "Shfaqe foton e ekranit sa tërë ekrani"
   },
-  "count-verified-desktop-apps": "Aplikacione desktop të verifikuar"
+  "count-verified-desktop-apps": "Aplikacione desktop të verifikuar",
+  "vendingSharesPreview": {
+    "app": "Aplikacion",
+    "sdk": "SDK"
+  }
 }

@@ -260,7 +260,6 @@
   "count-desktop-apps": "Wszystkie aplikacje na komputer",
   "rss-apps": "Potrzebujesz aplikacji do kanałów RSS? Znajdziesz idealną dla siebie na <2>Flathubie</2>.",
   "apps-by-developer": "Aplikacja stworzona przez {{developer}}",
-  "app-share": "Udostępnianie aplikacji",
   "no-apps": "Brak aplikacji do pokazania.",
   "consultants": "Konsultanci",
   "consultants-description": "Usługi konsultacyjne w sprawie zgłaszania aplikacji do Flathub.",
@@ -614,11 +613,6 @@
   "recipient": "Odbiorca",
   "created": "Utworzono",
   "action-donate": "Wesprzyj",
-  "platform": {
-    "org-kde-platform": "Platforma KDE",
-    "org-gnome-platform": "Platforma GNOME",
-    "org-freedesktop-platform": "Platforma Freedesktop"
-  },
   "kind-purchase-app": "Kup {{appName}}",
   "action-purchase": "Kup",
   "kind-donate-app": "Przekaż darowiznę {{appName}}",
@@ -654,5 +648,15 @@
     "previous": "Poprzedni",
     "show-screenshot-fullscreen": "Pokaż zrzut ekranu na pełnym ekranie",
     "zoom-in": "Powiększenie"
+  },
+  "vendingSharesPreview": {
+    "app": "Aplikacja",
+    "sliderLabel": "Suwak dystrybucji udziału",
+    "sliderThumbLabel": "Dystrybucja udziału aplikacji: {{percentage}}",
+    "sdkShare": "Udział SDK: {{percentage}}",
+    "flathubShare": "Udział Flathub: {{percentage}}",
+    "appShare": "Udział aplikacji: {{percentage}}",
+    "sdk": "SDK",
+    "screenReaderBreakdown": "Suwak podziału udostępniania. Użyj klawiszy strzałek, aby dostosować udział między aplikacją, SDK i Flathub. Bieżąca dystrybucja: Aplikacja: {{appPercentage}}, SDK: {{sdkPercentage}}, Flathub: {{flathubPercentage}}. Całkowity koszt: {{totalCost}}."
   }
 }

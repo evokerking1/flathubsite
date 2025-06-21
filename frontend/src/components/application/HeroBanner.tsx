@@ -39,10 +39,15 @@ export const HeroBanner = ({
   aboveTheFold?: boolean
   forceTheme?: "light" | "dark"
 }) => {
+  const [mounted, setMounted] = useState(false)
   const { resolvedTheme } = useTheme()
 
   const [api, setApi] = useState<CarouselApi>()
   const [current, setCurrent] = useState(0)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   useEffect(() => {
     if (!api) {
@@ -89,12 +94,17 @@ export const HeroBanner = ({
     >
       <CarouselContent className="h-[288px] xl:h-[352px] ml-0">
         {heroBannerData.map((data, i) => {
+          const fallbackColor = chooseBrandingColor(
+            data.appstream?.branding,
+            "dark",
+          )
+
           const brandingColor = chooseBrandingColor(
             data.appstream?.branding,
             forceTheme ?? (resolvedTheme as "light" | "dark"),
           )
 
-          const textColor = brandingColor
+          const textColor = mounted
             ? getContrastColor(brandingColor.value) === "black"
               ? "text-flathub-dark-gunmetal"
               : "text-flathub-lotion"
@@ -107,7 +117,8 @@ export const HeroBanner = ({
                 passHref
                 style={{
                   backgroundColor:
-                    (brandingColor && brandingColor.value) ?? "#FF00DC",
+                    (mounted ? brandingColor.value : fallbackColor.value) ??
+                    "#FF00DC",
                 }}
                 className={clsx(
                   "flex min-w-0 items-center gap-4 p-4 py-0 duration-500",
