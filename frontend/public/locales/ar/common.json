@@ -259,7 +259,6 @@
   "apps": "التطبيقات",
   "count-desktop-apps": "إجماليُّ تطبيقات سطح المكتب",
   "apps-by-developer": "تطبيقات {{developer}}",
-  "app-share": "مشاركة التطبيقات",
   "no-apps": "لا توجد تطبيقات لتُعرض.",
   "rss-apps": "أتريد تطبيق آر‌إس‌إس؟ تجد خيرهم في <2>فلاتهب</2>.",
   "consultants-description": "استشارات حيال وضع التطبيقات في فلاتهب.",
@@ -613,11 +612,6 @@
   "action-donate": "تبرَّع",
   "kind-purchase-app": "اشترِ {{appName}}",
   "recipient": "المستلم",
-  "platform": {
-    "org-gnome-platform": "منصة GNOME",
-    "org-kde-platform": "منصة KDE",
-    "org-freedesktop-platform": "منصة Freedesktop"
-  },
   "positions": "المواضع",
   "type": "النوع",
   "amount": "الكمية",
@@ -655,7 +649,17 @@
     "close": "أغلِق",
     "zoom-in": "قرِّب",
     "next": "التالي",
-    "show-screenshot-fullscreen": "اعرض لقطة شاشة بملء الشاشة"
+    "show-screenshot-fullscreen": "اعرض لقطة شاشة في ملء الشاشة"
   },
-  "count-verified-desktop-apps": "تطبيقات سطح المكتب المؤكَّدة"
+  "count-verified-desktop-apps": "تطبيقات سطح المكتب المؤكَّدة",
+  "vendingSharesPreview": {
+    "app": "التطبيق",
+    "appShare": "حصة التطبيق: {{percentage}}",
+    "sdkShare": "حصة SDK: {{percentage}}",
+    "flathubShare": "حصة فلاتهب: {{percentage}}",
+    "sdk": "SDK",
+    "sliderLabel": "شريط تمرير توزيع الحصة",
+    "sliderThumbLabel": "توزيع حصة التطبيق: {{percentage}}",
+    "screenReaderBreakdown": "تقسيم شريط تمرير الحصة. استخدم مفاتيح الأسهم لضبط التوزيع بين التطبيق وSDK وفلاتهب. التوزيع الحالي: التطبيق: {{appPercentage}}، SDK: {{sdkPercentage}}، فلاتهب: {{flathubPercentage}}. التكلفة الإجمالية: {{totalCost}}."
+  }
 }

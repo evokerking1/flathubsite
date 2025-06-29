@@ -45,7 +45,7 @@
   "popular": "Популярные",
   "documentation": "Документация",
   "publish-your-app": "Опубликовать приложение",
-  "more": "Больше",
+  "more": "Развернуть",
   "community": "Сообщество",
   "statistics": "Статистика",
   "badges": "Значки",
@@ -188,7 +188,7 @@
   "submit-payment": "Оплатить",
   "account-deletion-token-mismatch": "Запрос на удаление учётной записи не прошёл аутентификацию.",
   "no-more-transactions": "Нет больше транзакций для отображения.",
-  "less": "Меньше",
+  "less": "Свернуть",
   "privacy-policy-description": "Используя этот веб-сайт, вы соглашаетесь с Политикой конфиденциальности.",
   "continue": "Продолжить",
   "privacy-policy": "Политика конфиденциальности",
@@ -253,7 +253,6 @@
   "count-desktop-apps": "Всего приложений",
   "rss-apps": "Вам нужно приложение для RSS? Найдите его на <2>Flathub</2>.",
   "apps-by-developer": "Приложения от {{developer}}",
-  "app-share": "Общий доступ к приложению",
   "no-apps": "Нет приложений.",
   "setup-flathub": "Установить Flathub",
   "tags-colon": "Метки:",
@@ -615,11 +614,6 @@
   "created": "Создано",
   "action-donate": "Пожертвовать",
   "kind-donate-app": "Пожертвовать для {{appName}}",
-  "platform": {
-    "org-gnome-platform": "Платформа GNOME",
-    "org-freedesktop-platform": "Платформа Freedesktop",
-    "org-kde-platform": "Платформа KDE"
-  },
   "action-purchase": "Купить",
   "kind-purchase-app": "Купить {{appName}}",
   "apps-by-tag": "Приложения с меткой «{{tag}}»",
@@ -654,5 +648,15 @@
     "zoom-out": "Отдалить",
     "screenshot": "Снимок экрана",
     "show-screenshot-fullscreen": "Показать во весь экран"
+  },
+  "vendingSharesPreview": {
+    "app": "Приложение",
+    "sdk": "SDK",
+    "sliderLabel": "Ползунок долей распределения",
+    "sliderThumbLabel": "Доля распределения на приложение: {{percentage}}",
+    "screenReaderBreakdown": "Ползунок долей распределения. Используйте клавиши-стрелки для изменения распределения между приложением, SDK и Flathub. Текущее распределение: Приложение: {{appPercentage}}, SDK: {{sdkPercentage}}, Flathub: {{flathubPercentage}}. Итоговая стоимость: {{totalCost}}.",
+    "appShare": "Доля приложения: {{percentage}}",
+    "flathubShare": "Доля Flathub: {{percentage}}",
+    "sdkShare": "Доля SDK: {{percentage}}"
   }
 }

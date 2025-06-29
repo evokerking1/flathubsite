@@ -68,7 +68,7 @@
   "alternative-badge": "Emblema alternativo",
   "code-examples": "Exemplos de código",
   "also-available-as-svg": "Também disponível em <2>formato SVG</2>",
-  "badge-copyright": "Na medida do possível por lei,<2>Jakub Steiner</2> renunciou a todos os direitos autorais e direitos relacionados ou adjacentes aos <5>Emblemas do Flathub</5>. Este trabalho é publicado da República Tcheca.",
+  "badge-copyright": "Na medida do possível por lei, <2>Jakub Steiner</2> renunciou a todos os direitos autorais e direitos relacionados ou adjacentes aos <5>Emblemas do Flathub</5>. Este trabalho foi publicado na República Tcheca.",
   "rss-description": "Inscreva-se nos feeds RSS do Flathub",
   "search-for-query": "Procurar por \"{{query}}\"",
   "categories": "Categorias",
@@ -91,7 +91,7 @@
   "donate": "Doar",
   "other-apps-by-developer": "Outros aplicativos de {{developer}}",
   "loading": "Carregando…",
-  "could-not-find-match-for-search": "Não foi possível encontrar um aplicativo correspondendo a sua pesquisa.",
+  "could-not-find-match-for-search": "Não foi possível encontrar um aplicativo correspondendo à sua pesquisa.",
   "request-new-app": "Se você estiver procurando por um aplicativo específico, informe à comunidade que você o quer no Flathub <1>aqui</1>.",
   "manifest": "Manifesto",
   "switch-language": "Alterar idioma",
@@ -257,7 +257,6 @@
   "rss-apps": "Você precisa de um aplicativo RSS? Encontre excelentes no <2>Flathub</2>.",
   "apps-by-developer": "Aplicativos de {{developer}}",
   "no-apps": "Nenhum aplicativo para mostrar.",
-  "app-share": "Compartilhamento de aplicativos",
   "consultants": "Consultores",
   "login-provider-verification-main-instruction-unknown-is-organization": "Verifique seu direito de usar o ID de aplicativo <1>{{id}}</1> autenticando-se na conta <3>{{login_name}}</3> (ou, se <5>{{login_name}}</5> for uma organização, uma conta com acesso a ela) em <7>{{login_provider}}</7>.",
   "browse": "Navegar",
@@ -615,11 +614,6 @@
   "position-short": "Pos.",
   "type": "Tipo",
   "recipient": "Recebedor",
-  "platform": {
-    "org-kde-platform": "Plataforma KDE",
-    "org-gnome-platform": "Plataforma GNOME",
-    "org-freedesktop-platform": "Plataforma Freedesktop"
-  },
   "kind-donate-app": "Doar para {{appName}}",
   "total": "Total",
   "apps-by-tag": "Aplicativos por tag '{{tag}}'",
@@ -654,5 +648,15 @@
     "next": "Próximo",
     "zoom-in": "Aumentar zoom"
   },
-  "count-verified-desktop-apps": "Aplicativos de desktop verificados"
+  "count-verified-desktop-apps": "Aplicativos de desktop verificados",
+  "vendingSharesPreview": {
+    "sliderThumbLabel": "Distribuição da participação do aplicativo: {{percentage}}",
+    "app": "Aplicativo",
+    "sdk": "SDK",
+    "appShare": "Participação do aplicativo: {{percentage}}",
+    "sdkShare": "Participação do SDK: {{percentage}}",
+    "sliderLabel": "Controle deslizante da distribuição de participação",
+    "flathubShare": "Participação do Flathub: {{percentage}}",
+    "screenReaderBreakdown": "Controle deslizante de detalhamento da participação. Use as teclas de seta para ajustar a distribuição entre aplicativo, SDK e Flathub. Distribuição atual: Aplicativo: {{appPercentage}}, SDK: {{sdkPercentage}}, Flathub: {{flathubPercentage}}. Custo total: {{totalCost}}."
+  }
 }
