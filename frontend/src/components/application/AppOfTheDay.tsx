@@ -8,6 +8,7 @@ import { useTheme } from "next-themes"
 import { chooseBrandingColor, getContrastColor } from "@/lib/helpers"
 import { cn } from "@/lib/utils"
 import clsx from "clsx"
+import { useEffect, useState } from "react"
 
 export const AppOfTheDay = ({
   appOfTheDay,
@@ -20,18 +21,25 @@ export const AppOfTheDay = ({
   className?: string
 }) => {
   const { t } = useTranslation()
+  const [mounted, setMounted] = useState(false)
   const { resolvedTheme } = useTheme()
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   if (!appOfTheDay) {
     return null
   }
+
+  const fallbackColor = chooseBrandingColor(appOfTheDay.branding, "dark")
 
   const brandingColor = chooseBrandingColor(
     appOfTheDay.branding,
     resolvedTheme as "light" | "dark",
   )
 
-  const textColor = brandingColor
+  const textColor = mounted
     ? getContrastColor(brandingColor.value) === "black"
       ? "text-flathub-dark-gunmetal"
       : "text-flathub-lotion"
@@ -42,7 +50,8 @@ export const AppOfTheDay = ({
       href={`/apps/${appOfTheDay.id}`}
       passHref
       style={{
-        backgroundColor: brandingColor && brandingColor.value,
+        backgroundColor:
+          (mounted ? brandingColor.value : fallbackColor.value) ?? "#FF00DC",
       }}
       className={cn(
         "rounded-xl",

@@ -260,7 +260,6 @@
   "count-desktop-apps": "Wszystkie aplikacje na komputer",
   "rss-apps": "Potrzebujesz aplikacji do kanałów RSS? Znajdziesz idealną dla siebie na <2>Flathubie</2>.",
   "apps-by-developer": "Aplikacja stworzona przez {{developer}}",
-  "app-share": "Udostępnianie aplikacji",
   "no-apps": "Brak aplikacji do pokazania.",
   "consultants": "Konsultanci",
   "consultants-description": "Usługi konsultacyjne w sprawie zgłaszania aplikacji do Flathub.",
@@ -599,7 +598,7 @@
   "transparent-safety": "<0>Transparentne bezpieczeństwo</0> — Wyraźnie widać, kiedy aplikacja jest <3>zweryfikowana</3> jako pochodząca od jej twórcy, jakich uprawnień wymaga oraz czy jest open source i czy można poddać ją audytowi",
   "tastefully-curated": "<0>Doskonale wyselekcjonowane</0> — Odkryj interesujące, najwyższej jakości aplikacje we Flathub dzięki naszej selekcji, która prezentuje to, co najlepsze w ofercie",
   "apps-for-you-where-you-are": "<0>Aplikacje dla ciebie, na każdym urządzeniu</0> — bez względu na to, czy korzystasz ze Steam Decka, potężnej stacji roboczej z Linuksem, Raspberry Pi, czy nietypowego telefonu z Linuksem, Flathub ma aplikacje, których potrzebujesz",
-  "millions-users": "<0>Dotrzyj do milionów użytkowników</0> — Flathub działa na wielu dystrybucjach Linuksa, jest <2>łatwy do zainstalowania</2> na pozostałych i ma ponad milion aktywnych użytkowników",
+  "millions-users": "<0>Dotrzyj do milionów użytkowników</0> — Flathub działa na wielu dystrybucjach Linuksa, jest <3>łatwy do zainstalowania</3> na pozostałych i ma ponad milion aktywnych użytkowników",
   "transparent": "<0>Niezależni i transparentni</0> — Jesteśmy oddolną społecznością open source, która dba o to, co najlepsze w ekosystemie",
   "docs-guidance": "<0>Jasna dokumentacja i wskazówki</0> — Obszerna <2>dokumentacja</2>, tysiące publicznych <5>manifestów aplikacji</5> i duża społeczność oznaczają, że zawsze możesz uzyskać pomoc",
   "integration": "<0>Integracja z natywnymi sklepami z aplikacjami</0> — Zapomnij o pobieraniu z Internetu; Flathub dostarcza aplikacje i <3>automatyczne aktualizacje</3> użytkownikom w ich natywnym kliencie sklepu z aplikacjami, tam, gdzie się tego spodziewają",
@@ -614,11 +613,6 @@
   "recipient": "Odbiorca",
   "created": "Utworzono",
   "action-donate": "Wesprzyj",
-  "platform": {
-    "org-kde-platform": "Platforma KDE",
-    "org-gnome-platform": "Platforma GNOME",
-    "org-freedesktop-platform": "Platforma Freedesktop"
-  },
   "kind-purchase-app": "Kup {{appName}}",
   "action-purchase": "Kup",
   "kind-donate-app": "Przekaż darowiznę {{appName}}",
@@ -654,5 +648,15 @@
     "previous": "Poprzedni",
     "show-screenshot-fullscreen": "Pokaż zrzut ekranu na pełnym ekranie",
     "zoom-in": "Powiększenie"
+  },
+  "vendingSharesPreview": {
+    "app": "Aplikacja",
+    "sliderLabel": "Suwak dystrybucji udziału",
+    "sliderThumbLabel": "Dystrybucja udziału aplikacji: {{percentage}}",
+    "sdkShare": "Udział SDK: {{percentage}}",
+    "flathubShare": "Udział Flathub: {{percentage}}",
+    "appShare": "Udział aplikacji: {{percentage}}",
+    "sdk": "SDK",
+    "screenReaderBreakdown": "Suwak podziału udostępniania. Użyj klawiszy strzałek, aby dostosować udział między aplikacją, SDK i Flathub. Bieżąca dystrybucja: Aplikacja: {{appPercentage}}, SDK: {{sdkPercentage}}, Flathub: {{flathubPercentage}}. Całkowity koszt: {{totalCost}}."
   }
 }

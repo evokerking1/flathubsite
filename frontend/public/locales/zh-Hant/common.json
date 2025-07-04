@@ -102,7 +102,7 @@
   "link-more-accounts": "連結更多帳號",
   "games": "遊戲",
   "graphics-and-photography": "影像與攝影",
-  "manual-install-instructions": "請確保在安裝前遵循<2>您 Linux 散佈版設定指南</2>",
+  "manual-install-instructions": "請確保在安裝前遵循<2>您的 Linux 散佈版設定指南</2>",
   "popular-apps": "熱門應用程式",
   "purchase-apps-title": "購買應用程式",
   "install": "安裝",
@@ -260,7 +260,6 @@
   "count-desktop-apps": "桌面應用程式總數",
   "rss-apps": "您需要 RSS 應用程式嗎？在 <2>Flathub</2> 上尋找超棒的應用程式。",
   "apps-by-developer": "由 {{developer}} 開發的應用程式",
-  "app-share": "應用程式分享",
   "no-apps": "沒有要顯示的應用程式。",
   "consultants-description": "遞交應用程式至 Flathub 的顧問服務。",
   "tags-colon": "標籤：",
@@ -595,7 +594,7 @@
   "get-apps": "取得應用程式",
   "about-claim": "<0>無論您是尋找應用程式的使用者，或是希望接觸更多使用者的開發者，<2>Flathub 都是 Linux 上應用程式的最佳選擇。</2></0>",
   "all-the-apps-you-want": "<0>您想要的所有應用程式</0> — 從您期待的大品牌到新鮮的獨立開發者，Flathub 提供數以千計的應用程式來滿足您的需求。",
-  "millions-users": "<0>接觸數百萬使用者</0> — Flathub 開箱即用於多種 Linux 散佈版，<2>可輕鬆安裝</2>於其他版本，並擁有超過一百萬的活躍使用者",
+  "millions-users": "<0>接觸數百萬使用者</0> — Flathub 開箱即用於多種 Linux 散佈版，<3>可輕鬆安裝</3>於其他版本，並擁有超過一百萬的活躍使用者",
   "tastefully-curated": "<0>精心策劃</0> — 在 Flathub 中發現有趣、優質的應用程式，並由我們的工作人員進行整理，以展示所提供的最佳應用程式",
   "apps-for-you-where-you-are": "<0>隨時隨地為您提供應用程式</0> — 無論您使用的是 Steam Deck、功能強大的 Linux 工作站、Raspberry Pi，還是罕見的 Linux 手機，Flathub 都能為您提供應用程式",
   "transparent": "<0>獨立與透明</0> — 我們是一個草根開放原始碼社群，管理著生態系所能提供的最佳資源",
@@ -611,11 +610,6 @@
   "total": "總計",
   "kind-purchase-app": "購買 {{appName}}",
   "kind-donate-app": "捐款給 {{appName}}",
-  "platform": {
-    "org-freedesktop-platform": "Freedesktop 平台",
-    "org-kde-platform": "KDE 平台",
-    "org-gnome-platform": "GNOME 平台"
-  },
   "action-donate": "捐款",
   "action-purchase": "購買",
   "recipient": "收款者",
@@ -652,5 +646,15 @@
     "screenshot": "螢幕截圖",
     "show-screenshot-fullscreen": "全螢幕顯示螢幕截圖"
   },
-  "count-verified-desktop-apps": "已驗證的桌面應用程式"
+  "count-verified-desktop-apps": "已驗證的桌面應用程式",
+  "vendingSharesPreview": {
+    "sliderLabel": "分享分佈滑桿",
+    "sdk": "SDK",
+    "appShare": "應用程式分享：{{percentage}}",
+    "sdkShare": "SDK 分享：{{percentage}}",
+    "flathubShare": "Flathub 分享：{{percentage}}",
+    "sliderThumbLabel": "應用程式分享分佈：{{percentage}}",
+    "app": "應用程式",
+    "screenReaderBreakdown": "分享細分滑桿。使用箭頭鍵調整應用程式、SDK 與 Flathub 之間的分佈。目前的分佈： App：{{appPercentage}}，SDK：{{sdkPercentage}}，Flathub：{{flathubPercentage}}。總花費：{{totalCost}}。"
+  }
 }

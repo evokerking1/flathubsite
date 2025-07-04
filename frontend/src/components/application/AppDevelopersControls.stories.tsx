@@ -1,5 +1,5 @@
 import React from "react"
-import { Meta } from "@storybook/react"
+import { Meta } from "@storybook/nextjs"
 import { faker } from "@faker-js/faker"
 import AppDevelopersControls from "./AppDevelopersControls"
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
@@ -13,7 +13,7 @@ const app = {
   id: faker.string.uuid(),
   icon: faker.image.url(),
   name: faker.commerce.product(),
-  developer_name: faker.internet.userName(),
+  developer_name: faker.internet.username(),
 }
 
 export default {
