@@ -8,7 +8,7 @@ import { faker } from "@faker-js/faker"
 
 import { HttpResponse, delay, http } from "msw"
 
-import { PipelineStatus, PipelineTrigger, ProviderType } from ".././model"
+import { PipelineStatus, PipelineTrigger } from ".././model"
 import type {
   PipelineResponse,
   PipelineSummary,
@@ -25,16 +25,59 @@ export const getListPipelinesApiPipelinesGetResponseMock =
       { length: faker.number.int({ min: 1, max: 10 }) },
       (_, i) => i + 1,
     ).map(() => ({
-      id: faker.string.alpha(20),
-      app_id: faker.string.alpha(20),
+      id: faker.string.alpha({ length: { min: 10, max: 20 } }),
+      app_id: faker.string.alpha({ length: { min: 10, max: 20 } }),
       status: faker.helpers.arrayElement(Object.values(PipelineStatus)),
       repo: faker.helpers.arrayElement([
-        faker.helpers.arrayElement([faker.string.alpha(20), null]),
+        faker.helpers.arrayElement([
+          faker.string.alpha({ length: { min: 10, max: 20 } }),
+          null,
+        ]),
         undefined,
       ]),
       triggered_by: faker.helpers.arrayElement(Object.values(PipelineTrigger)),
       build_id: faker.helpers.arrayElement([
-        faker.helpers.arrayElement([faker.string.alpha(20), null]),
+        faker.helpers.arrayElement([
+          faker.number.int({
+            min: undefined,
+            max: undefined,
+            multipleOf: undefined,
+          }),
+          null,
+        ]),
+        undefined,
+      ]),
+      commit_job_id: faker.helpers.arrayElement([
+        faker.helpers.arrayElement([
+          faker.number.int({
+            min: undefined,
+            max: undefined,
+            multipleOf: undefined,
+          }),
+          null,
+        ]),
+        undefined,
+      ]),
+      publish_job_id: faker.helpers.arrayElement([
+        faker.helpers.arrayElement([
+          faker.number.int({
+            min: undefined,
+            max: undefined,
+            multipleOf: undefined,
+          }),
+          null,
+        ]),
+        undefined,
+      ]),
+      update_repo_job_id: faker.helpers.arrayElement([
+        faker.helpers.arrayElement([
+          faker.number.int({
+            min: undefined,
+            max: undefined,
+            multipleOf: undefined,
+          }),
+          null,
+        ]),
         undefined,
       ]),
       created_at: `${faker.date.past().toISOString().split(".")[0]}Z`,
@@ -64,28 +107,67 @@ export const getListPipelinesApiPipelinesGetResponseMock =
 export const getGetPipelineApiPipelinesPipelineIdGetResponseMock = (
   overrideResponse: Partial<PipelineResponse> = {},
 ): PipelineResponse => ({
-  id: faker.string.alpha(20),
-  app_id: faker.string.alpha(20),
+  id: faker.string.alpha({ length: { min: 10, max: 20 } }),
+  app_id: faker.string.alpha({ length: { min: 10, max: 20 } }),
   status: faker.helpers.arrayElement(Object.values(PipelineStatus)),
   repo: faker.helpers.arrayElement([
-    faker.helpers.arrayElement([faker.string.alpha(20), null]),
-    undefined,
-  ]),
-  params: {},
-  triggered_by: faker.helpers.arrayElement(Object.values(PipelineTrigger)),
-  provider: faker.helpers.arrayElement([
     faker.helpers.arrayElement([
-      faker.helpers.arrayElement(Object.values(ProviderType)),
+      faker.string.alpha({ length: { min: 10, max: 20 } }),
       null,
     ]),
     undefined,
   ]),
+  params: {},
+  triggered_by: faker.helpers.arrayElement(Object.values(PipelineTrigger)),
   log_url: faker.helpers.arrayElement([
-    faker.helpers.arrayElement([faker.string.alpha(20), null]),
+    faker.helpers.arrayElement([
+      faker.string.alpha({ length: { min: 10, max: 20 } }),
+      null,
+    ]),
     undefined,
   ]),
   build_id: faker.helpers.arrayElement([
-    faker.helpers.arrayElement([faker.string.alpha(20), null]),
+    faker.helpers.arrayElement([
+      faker.number.int({
+        min: undefined,
+        max: undefined,
+        multipleOf: undefined,
+      }),
+      null,
+    ]),
+    undefined,
+  ]),
+  commit_job_id: faker.helpers.arrayElement([
+    faker.helpers.arrayElement([
+      faker.number.int({
+        min: undefined,
+        max: undefined,
+        multipleOf: undefined,
+      }),
+      null,
+    ]),
+    undefined,
+  ]),
+  publish_job_id: faker.helpers.arrayElement([
+    faker.helpers.arrayElement([
+      faker.number.int({
+        min: undefined,
+        max: undefined,
+        multipleOf: undefined,
+      }),
+      null,
+    ]),
+    undefined,
+  ]),
+  update_repo_job_id: faker.helpers.arrayElement([
+    faker.helpers.arrayElement([
+      faker.number.int({
+        min: undefined,
+        max: undefined,
+        multipleOf: undefined,
+      }),
+      null,
+    ]),
     undefined,
   ]),
   created_at: `${faker.date.past().toISOString().split(".")[0]}Z`,
@@ -119,16 +201,18 @@ export const getPublishPipelinesApiPipelinesPublishPostResponseMock = (
   published: Array.from(
     { length: faker.number.int({ min: 1, max: 10 }) },
     (_, i) => i + 1,
-  ).map(() => faker.string.alpha(20)),
+  ).map(() => faker.string.alpha({ length: { min: 10, max: 20 } })),
   superseded: Array.from(
     { length: faker.number.int({ min: 1, max: 10 }) },
     (_, i) => i + 1,
-  ).map(() => faker.string.alpha(20)),
+  ).map(() => faker.string.alpha({ length: { min: 10, max: 20 } })),
   errors: Array.from(
     { length: faker.number.int({ min: 1, max: 10 }) },
     (_, i) => i + 1,
   ).map(() => ({
-    [faker.string.alphanumeric(5)]: faker.string.alpha(20),
+    [faker.string.alphanumeric(5)]: faker.string.alpha({
+      length: { min: 10, max: 20 },
+    }),
   })),
   ...overrideResponse,
 })
@@ -259,6 +343,22 @@ export const getPublishPipelinesApiPipelinesPublishPostMockHandler = (
     )
   })
 }
+
+export const getCheckPipelineJobsApiPipelinesCheckJobsPostMockHandler = (
+  overrideResponse?:
+    | unknown
+    | ((
+        info: Parameters<Parameters<typeof http.post>[1]>[0],
+      ) => Promise<unknown> | unknown),
+) => {
+  return http.post("*/api/pipelines/check-jobs", async (info) => {
+    await delay(1000)
+    if (typeof overrideResponse === "function") {
+      await overrideResponse(info)
+    }
+    return new HttpResponse(null, { status: 200 })
+  })
+}
 export const getPipelinesMock = () => [
   getTriggerPipelineApiPipelinesPostMockHandler(),
   getListPipelinesApiPipelinesGetMockHandler(),
@@ -266,4 +366,5 @@ export const getPipelinesMock = () => [
   getPipelineCallbackApiPipelinesPipelineIdCallbackPostMockHandler(),
   getRedirectToLogUrlApiPipelinesPipelineIdLogUrlGetMockHandler(),
   getPublishPipelinesApiPipelinesPublishPostMockHandler(),
+  getCheckPipelineJobsApiPipelinesCheckJobsPostMockHandler(),
 ]

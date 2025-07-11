@@ -259,7 +259,6 @@
   "apps": "Aplikace",
   "count-desktop-apps": "Celkem desktopových aplikací",
   "apps-by-developer": "Aplikace od {{developer}}",
-  "app-share": "Sdílení aplikací",
   "no-apps": "Žádné aplikace k zobrazení.",
   "rss-apps": "Potřebujete RSS čtečku? Najděte tu správnou na <2>Flathub</2>.",
   "consultants": "Konzultanti",
@@ -599,7 +598,7 @@
   "apps-for-you-where-you-are": "<0>Aplikace pro vás, ať jste kdekoli</0> - Ať už používáte Steam Deck, výkonnou linuxovou pracovní stanici, Raspberry Pi nebo vzácný linuxový telefon, Flathub má aplikace pro vás",
   "transparent": "<0>Nezávislost a transparentnost</0> - Jsme základní komunita open source, která spravuje to nejlepší, co ekosystém nabízí",
   "integration": "<0>Integrace nativního obchodu s aplikacemi</0> - Zapomeňte na stahování z webu; Flathub poskytuje aplikace a <3>automatické aktualizace</3> uživatelům v jejich nativním klientovi obchodu s aplikacemi, kde je očekávají",
-  "millions-users": "<0>Dosáhnout miliony uživatelů</0> - Flathub je dodáván jako hotový na několika distribucích Linuxu, na ostatních je <2>snadno instalovatelný</2> a má více než milion aktivních uživatelů",
+  "millions-users": "<0>Dosáhnout miliony uživatelů</0> - Flathub je dodáván jako hotový na několika distribucích Linuxu, na ostatních je <3>snadno instalovatelný</3> a má více než milion aktivních uživatelů",
   "all-the-apps-you-want": "<0>Všechny aplikace, které chcete</0> - Flathub nabízí tisíce aplikací pro vaše potřeby, od velkých jmen, která byste očekávali, až po čerstvé nezávislé vývojáře.",
   "transparent-safety": "<0>Transparentní bezpečnost</0> - Jasně vidíte, kdy je aplikace <3>ověřená</3>, že pochází od jejího vývojáře, jaká oprávnění vyžaduje a zda má otevřený zdrojový kód a zda je auditovatelná",
   "docs-guidance": "<0>Přehledné dokumenty a návody</0> - Rozsáhlá <2>dokumentace</2>, tisíce veřejných <5>aplikačních manifestů</5> a rozsáhlá komunita znamenají, že vždy můžete získat pomoc",
@@ -611,11 +610,6 @@
   "action-donate": "Podpořit vývoj darem",
   "recipient": "Příjemce",
   "amount": "Částka",
-  "platform": {
-    "org-gnome-platform": "Platforma GNOME",
-    "org-freedesktop-platform": "Platforma Freedesktop",
-    "org-kde-platform": "Platforma KDE"
-  },
   "positions": "Pozice",
   "position-short": "Poz.",
   "total": "Celkem",
@@ -654,5 +648,15 @@
     "close": "Zavřít",
     "show-screenshot-fullscreen": "Zobrazit snímek na celou obrazovku"
   },
-  "count-verified-desktop-apps": "Ověřené desktopové aplikace"
+  "count-verified-desktop-apps": "Ověřené desktopové aplikace",
+  "vendingSharesPreview": {
+    "app": "Aplikace",
+    "appShare": "Podíl aplikace: {{percentage}}",
+    "flathubShare": "Podíl Flathubu: {{percentage}}",
+    "sdk": "SDK",
+    "sliderLabel": "Posuvník rozdělení akcií",
+    "sdkShare": "Podíl SDK: {{percentage}}",
+    "sliderThumbLabel": "Distribuce podílů aplikací: {{percentage}}",
+    "screenReaderBreakdown": "Sdílet členění jezdce. Pomocí šipek upravte rozdělení mezi aplikace, SDK a Flathub. Aktuální rozdělení: Aplikace: {{appPercentage}}, SDK: {{sdkPercentage}}, Flathub: {{flathubPercentage}}, Celkové náklady: {{totalCost}}."
+  }
 }

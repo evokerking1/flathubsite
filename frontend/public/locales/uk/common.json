@@ -260,7 +260,6 @@
   "count-desktop-apps": "Усього застосунків для комп'ютерів",
   "rss-apps": "Вам потрібен застосунок для RSS? Знайдіть чудові на <2>Flathub</2>.",
   "apps-by-developer": "Застосунки від {{developer}}",
-  "app-share": "Поділитися застосунком",
   "no-apps": "Немає застосунків.",
   "consultants-description": "Консультаційні послуги щодо подання застосунків до Flathub.",
   "consultants": "Консультанти",
@@ -610,11 +609,6 @@
   "type": "Тип",
   "kind-purchase-app": "Придбати {{appName}}",
   "positions": "Позиції",
-  "platform": {
-    "org-kde-platform": "Платформа KDE",
-    "org-gnome-platform": "Платформа GNOME",
-    "org-freedesktop-platform": "Платформа Freedesktop"
-  },
   "action-purchase": "Придбати",
   "kind-donate-app": "Підтримати {{appName}}",
   "amount": "Сума",
@@ -654,5 +648,15 @@
     "zoom-out": "Зменшити масштаб",
     "show-screenshot-fullscreen": "Показати знімок екрана на весь екран"
   },
-  "count-verified-desktop-apps": "Перевірені застосунки для комп'ютерів"
+  "count-verified-desktop-apps": "Перевірені застосунки для комп'ютерів",
+  "vendingSharesPreview": {
+    "sliderThumbLabel": "Розподіл спільних ресурсів програми: {{percentage}}",
+    "sdkShare": "Спільний доступ до SDK: {{percentage}}",
+    "flathubShare": "Поділитися Flathub: {{percentage}}",
+    "screenReaderBreakdown": "Повзунок розподілу. Використовуйте клавіші зі стрілками, щоб налаштувати розподіл між додатком, SDK та Flathub. Поточний розподіл: додаток: {{appPercentage}}, SDK: {{sdkPercentage}}, Flathub: {{flathubPercentage}}. Загальна вартість: {{totalCost}}.",
+    "app": "Додаток",
+    "sdk": "SDK",
+    "sliderLabel": "Повзунок розподілу спільних ресурсів",
+    "appShare": "Спільний доступ до додатка: {{percentage}}"
+  }
 }

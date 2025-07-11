@@ -258,7 +258,6 @@
   "setup-flathub-description": "Set up Flathub to install and update apps on your system.",
   "apps": "Apps",
   "apps-by-developer": "Apps by {{developer}}",
-  "app-share": "App share",
   "no-apps": "No apps to show.",
   "count-desktop-apps": "Total desktop apps",
   "rss-apps": "Do you need an RSS app? Find excellent ones on <2>Flathub</2>.",
@@ -600,11 +599,6 @@
   "recipient": "Recipient",
   "amount": "Amount",
   "created": "Created",
-  "platform": {
-    "org-kde-platform": "KDE Platform",
-    "org-gnome-platform": "GNOME Platform",
-    "org-freedesktop-platform": "Freedesktop Platform"
-  },
   "date": "Date",
   "get-apps": "Get apps",
   "flathub": "Flathub",
@@ -619,7 +613,7 @@
   "transparent-safety": "<0>Transparent safety</0> — Clearly see when an app is <3>verified</3> as coming from its developer, what permissions it requires, and whether or not it's open source and auditable",
   "kind-purchase-app": "Purchase {{appName}}",
   "tastefully-curated": "<0>Tastefully curated</0> — Discover interesting, quality apps across Flathub with our staff curation that showcases the best on offer",
-  "millions-users": "<0>Reach millions of users</0> — Flathub comes out of the box on multiple Linux distros, is <2>easily installable</2> on the rest, and has over a million active users",
+  "millions-users": "<0>Reach millions of users</0> — Flathub comes out of the box on multiple Linux distros, is <3>easily installable</3> on the rest, and has over a million active users",
   "kind-donate-app": "Donate to {{appName}}",
   "quality": {
     "missing-brand-colors": "Missing brand colours",
@@ -643,5 +637,25 @@
   "more-mobile-apps": "More mobile apps",
   "on-the-go": "On the go",
   "emulator": "Emulators",
-  "tool": "Tools"
+  "tool": "Tools",
+  "lightbox": {
+    "close": "Close",
+    "zoom-out": "Zoom Out",
+    "screenshot": "Screenshot",
+    "next": "Next",
+    "previous": "Previous",
+    "zoom-in": "Zoom In",
+    "show-screenshot-fullscreen": "Show screenshot fullscreen"
+  },
+  "count-verified-desktop-apps": "Verified desktop apps",
+  "vendingSharesPreview": {
+    "sliderLabel": "Share distribution slider",
+    "app": "App",
+    "sdk": "SDK",
+    "appShare": "App share: {{percentage}}",
+    "sliderThumbLabel": "App share distribution: {{percentage}}",
+    "sdkShare": "SDK share: {{percentage}}",
+    "flathubShare": "Flathub share: {{percentage}}",
+    "screenReaderBreakdown": "Share breakdown slider. Use arrow keys to adjust the distribution between App, SDK, and Flathub. Current distribution: App: {{appPercentage}}, SDK: {{sdkPercentage}}, Flathub: {{flathubPercentage}}. Total cost: {{totalCost}}."
+  }
 }

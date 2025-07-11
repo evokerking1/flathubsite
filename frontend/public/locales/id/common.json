@@ -18,7 +18,7 @@
   "popular": "Populer",
   "rss-feeds": "Umpan RSS",
   "community": "Komunitas",
-  "developers": "Para Pengembang",
+  "developers": "Pengembang",
   "publish-your-app": "Terbitkan Aplikasi Anda",
   "documentation": "Dokumentasi",
   "statistics": "Statistik",
@@ -280,7 +280,6 @@
   "consultants-description": "Layanan konsultasi untuk mengirimkan aplikasi ke Flathub.",
   "action": "Aksi",
   "shooter": "Penembak",
-  "app-share": "Berbagi aplikasi",
   "no-apps": "Tidak ada aplikasi untuk ditampilkan.",
   "app-eol": "Aplikasi ini tidak lagi tersedia di Flathub",
   "flathub-index-description": "Dapatkan versi terbaru dari semua aplikasi favorit Anda, untuk semua distribusi Linux",
@@ -441,7 +440,7 @@
     "branding-good-primary-brand-colors": "Warna merek utama yang bagus",
     "request-review-description": "Tim kami akan meninjau aplikasi Anda untuk mengetahui masalah kualitas. Silakan periksa kembali dalam beberapa hari.",
     "request-a-review-question": "Apakah Anda ingin meminta peninjauan?",
-    "problems": "Jika Anda ingin bertanya kepada kami tentang masalah pedoman kualitas tertentu, silakan buka <2>an issue</2>."
+    "problems": "Jika Anda ingin bertanya kepada kami tentang masalah pedoman kualitas tertentu, silakan laporkan <2>masalah</2>."
   },
   "user-data-subfolder-x": "Subfolder data pengguna {{folder}}",
   "desktop-folder": "Folder desktop",
@@ -545,7 +544,7 @@
   "slide": "Slide",
   "more-updated": "Lebih Diperbarui",
   "screen-contents-access": "Akses tampilan layar",
-  "users": "Pengguna-pengguna",
+  "users": "Pengguna",
   "flathub-statistics-description": "Ikhtisar penggunaan dan distribusi aplikasi yang tersedia di platform.",
   "updated-description": "Aplikasi yang diperbarui di Flathub dalam beberapa hari terakhir.",
   "date": "Tanggal",
@@ -554,8 +553,8 @@
   "all-the-apps-you-want": "<0>Semua aplikasi yang Anda inginkan</0> - Dari nama-nama besar yang Anda kenal hingga pengembang indie baru, Flathub memiliki ribuan aplikasi untuk memenuhi kebutuhan Anda.",
   "more-office": "Lebih Banyak Produktivitas",
   "more-education": "Lebih Banyak Pendidikan",
-  "microphone-access": "Akses mikrofon",
-  "can-listen-using-microphones-without-asking-permission": "Dapat mendengarkan melalui mikrofon tanpa meminta izin",
+  "microphone-access": "Akses mikrofon dan pemutaran audio",
+  "can-listen-using-microphones-without-asking-permission": "Dapat mendengarkan melalui mikrofon dan memutar audio tanpa meminta izin.",
   "can-access-the-contents-of-the-screen-or-other-windows": "Dapat mengakses tampilan layar atau jendela lain",
   "read-announcements": "Baca pengumuman",
   "get-it-on": "Dapatkan di",
@@ -573,7 +572,7 @@
   "chat-on-matrix": "Mengobrol di Matrix",
   "rebase-onto-other-app": "Masukkan ID aplikasi Anda yang akan diubah basisnya",
   "install-x": "Menginstal {{app-name}} di Linux",
-  "millions-users": "<0>Menjangkau jutaan pengguna</0> - Flathub tersedia di berbagai distro Linux, dapat diinstal dengan mudah di distro Linux lainnya, dan memiliki lebih dari satu juta pengguna aktif",
+  "millions-users": "<0>Jangkau jutaan pengguna</0> — Flathub sudah tersedia secara default di berbagai distribusi Linux, <3>dapat diinstal dengan mudah</3> pada perangkat lainnya, dan memiliki lebih dari satu juta pengguna aktif.",
   "docs-guidance": "<0>Dokumen & panduan yang jelas</0> - Dokumentasi yang luas, ribuan manifes aplikasi publik, dan komunitas yang besar berarti Anda selalu dapat memperoleh bantuan",
   "danger-zone": "Zona bahaya",
   "switch-to-direct-upload": "Beralih aplikasi ke unggahan langsung",
@@ -615,11 +614,6 @@
   "amount": "Jumlah",
   "total": "Total",
   "created": "Dibuat",
-  "platform": {
-    "org-kde-platform": "Platform KDE",
-    "org-gnome-platform": "Rencana kerja GNOME",
-    "org-freedesktop-platform": "Rencana Kerja Freedesktop"
-  },
   "apps-by-tag": "Apk berdasar tag '{{tag}}'",
   "quality": {
     "missing-brand-colors": "Warna brand hilang",
@@ -631,5 +625,29 @@
   "favorite-apps": "Terfavorit",
   "mobile-apps-description": "Aplikasi untuk ponsel dan tablet Linux",
   "on-the-go": "On the go",
-  "more-mobile-apps": "Lebih banyak aplikasi mobile"
+  "more-mobile-apps": "Lebih banyak aplikasi mobile",
+  "count-verified-desktop-apps": "Apl desktop terverifikasi",
+  "lightbox": {
+    "previous": "Kembali",
+    "zoom-in": "Perbesar",
+    "screenshot": "Cuplikan layar",
+    "close": "Tutup",
+    "next": "Lanjut",
+    "zoom-out": "Perkecil",
+    "show-screenshot-fullscreen": "Tampilkan cuplikan layar dalam layar penuh"
+  },
+  "emulator": "Emulator",
+  "more-gamelauncher": "Lebih Banyak Peluncur Game",
+  "tool": "Alat",
+  "gametool": "Alat Game",
+  "more-gametool": "Lebih Banyak Alat Game",
+  "we-love-games": "Kami ♥ Game",
+  "game-section-description": "Game dan apl untuk menjalankan judul favorit Anda",
+  "gameemulator": "Emulator",
+  "more-emulator": "Lebih Banyak Emulator",
+  "launcher": "Peluncur",
+  "gamelauncher": "Peluncur Game",
+  "vendingSharesPreview": {
+    "sdk": "SDK"
+  }
 }

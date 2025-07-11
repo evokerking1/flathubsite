@@ -264,7 +264,6 @@
   "moderation-dev-description": "Certaines modifications des métadonnées d'une application, comme son nom ou sa description, doivent être examinées par l'équipe de Flathub. Vous pouvez consulter le statut des demandes de révision actuelles et passées ici.",
   "moderation-outdated": "Obsolètes",
   "moderation-rejected-by": "Rejeté par {{handledBy}} le {{handledAt}} ({{handledAtRel}})",
-  "app-share": "Partage du logiciel",
   "login-provider-verification-user-does-not-exist": "Le compte <1>@{{required_name}}</1> n'existe pas sur <3>{{login_provider}}</3>. Vous devez revendiquer ce nom de compte et l'utiliser pour vérifier votre application, ou idéalement, choisir un identifiant d'application sur lequel vous avez le contrôle. Voir <5>la documentation Flatpak</5> pour des informations sur les bons identifiants d'application.",
   "simulation": "Simulation",
   "sports": "Sports",
@@ -595,7 +594,7 @@
   "tastefully-curated": "<0>Avec goût</0> — Découvrez des applications intéressantes et de qualité dans tout Flathub grâce à notre de sélection qui présente le meilleur de l'offre",
   "apps-for-you-where-you-are": "<0>Des applications pour vous là où vous êtes</0> — Que vous soyez sur un Steam Deck, une puissante station de travail Linux, un Raspberry Pi ou le rare téléphone Linux, Flathub a des applications pour vous",
   "docs-guidance": "<0>Des documents clairs et des conseils</0> — Une <2>documentation</2> exhaustive, des milliers de <5>manifestes d’applications</5> publics et une grande communauté vous permettent de toujours obtenir de l’aide",
-  "millions-users": "<0>Atteindre des millions d’utilisateurs</0> — Flathub est prêt à l’emploi sur plusieurs distros Linux, il est <2>facile à installer</2> sur le reste, et compte plus d’un million d’utilisateurs actifs",
+  "millions-users": "<0>Atteignez des millions d’utilisateurs</0> — Flathub est prêt à l’emploi sur plusieurs distros Linux, <3>facile à installer</3> sur les autres, et compte plus d’un million d’utilisateurs actifs",
   "integration": "<0>Intégration native de l’app store</0> — Oubliez les téléchargements web ; Flathub fournit des applications et des <3>mises à jour automatiques</3> aux utilisateurs dans leur client d’app store natif, là où ils s’attendraient",
   "users": "Utilisateurs",
   "about-claim": "<0>Que vous soyez un utilisateur à la recherche d’applications ou un développeur cherchant à atteindre plus d’utilisateurs, <2>Flathub est le meilleur choix pour les applications sous Linux.</2></0>",
@@ -606,11 +605,6 @@
   "type": "Type",
   "action-purchase": "Acheter",
   "kind-donate-app": "Faire un don à {{appName}}",
-  "platform": {
-    "org-gnome-platform": "Plateforme GNOME",
-    "org-freedesktop-platform": "Plateforme Freedesktop",
-    "org-kde-platform": "Plateforme KDE"
-  },
   "flathub-logo": "Logo Flathub",
   "flathub": "Flathub",
   "total": "Total",
@@ -654,5 +648,15 @@
     "next": "Suivant"
   },
   "count-verified-desktop-apps": "Apps de bureau vérifiées",
-  "position-short": "Posit."
+  "position-short": "Posit.",
+  "vendingSharesPreview": {
+    "app": "App",
+    "sdk": "SDK",
+    "sliderThumbLabel": "Distribution des parts de l'app : {{percentage}}",
+    "sdkShare": "Parts du SDK : {{percentage}}",
+    "sliderLabel": "Curseur de distribution des parts",
+    "screenReaderBreakdown": "Curseur de distribution des parts. Utilisez les touches fléchées pour ajuster la distribution des parts entre l'app, le SDK et Flathub. Distribution actuelle : App : {{appPercentage}}, SDK : {{sdkPercentage}}, Flathub : {{flathubPercentage}}. Coût total : {{totalCost}}.",
+    "flathubShare": "Parts de Flathub : {{percentage}}",
+    "appShare": "Parts de l'app : {{percentage}}"
+  }
 }
